@@ -1,0 +1,334 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Maven+Pro:wght@400..900&display=swap');
+
+/* Global Styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+
+    font-family: "Maven Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffffff;
+    position: relative;
+}
+
+.logo {
+    /* Logo stays on the top-left by default */
+    padding: 20px 0 20px 150px;
+}
+
+.logo img {
+    height: 120px;
+}
+
+nav {
+    border-top: 2px solid #729197; /* Line on top of nav bar */
+    border-bottom: 2px solid #729197; /* Line on bottom of nav bar */
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px 0 20px 120px;
+    margin: 0;
+    display: flex; /* Display menu items inline */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #729197;
+    text-decoration: none;
+    font-size: 18px; /* Increase font size */
+    padding: 10px 15px; /* Increase padding for larger buttons */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hamburger Menu Styling */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: #729197;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    /* Show hamburger icon */
+    .hamburger {
+        display: flex;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 1100; /* Ensure hamburger is above nav */
+    }
+    
+    /* Hide navigation menu */
+    nav {
+        display: none;
+        border:none;
+    }
+    
+    /* Show navigation menu when active */
+    nav.active {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1000; /* Added z-index to bring nav above other elements */
+        padding-bottom: 15px;
+    }
+    
+    nav ul {
+        
+        margin:0;
+        padding:0 10px 0 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 0;
+        width: 100%;
+        border-bottom: 1px solid #b4b4b4; /* Add bottom border to separate links */
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    
+    nav ul li a {
+        padding: 0 0 0 20px;
+        font-size: 22px;
+        text-decoration: none;
+        
+    }
+    .logo img{
+        height:60px;
+    }
+    .logo {
+        /* Logo stays on the top-left by default */
+        padding: 10px 0 10px 20px;
+    }
+}
+
+/* Transform hamburger to 'X' when active */
+.hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-10px, -10px);
+}
+
+/* Main Content Styling */
+main {
+    padding: 30px 50px 30px 50px;
+    max-width: 700px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #1a363e;
+}
+.page_intro{
+    margin: auto;
+    width:80%;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
+}
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left{
+    width: 45%;
+}
+.footer-right{
+    width: 20%;
+}
+
+.footer-left p {
+    margin: 5px 0;
+}
+
+.footer-left a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-left a:hover {
+    text-decoration: underline;
+}
+.footer-right{
+    float: right;
+}
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-right ul li {
+    margin-bottom: 10px;
+}
+
+.footer-right ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-right ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-left,
+    .footer-right {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Additional Styles */
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    footer {
+        position: static;
+    }
+}
+
+/* Particles Styling */
+/* Particles Styling */
+#particle-div {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#particle_background {
+    height: 300px;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.particle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Adjust text color for readability */
+    text-align: center;
+    padding: 0 20px; /* Optional: add padding for better text layout */
+}
+
+.particle-text h1 {
+    font-size: 50px;
+    margin: 0 0 10px 0;
+    z-index: 2;
+    color: #ffffff;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+}
+
+.particle-text p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+/* Ensure other elements have lower z-index or none */
+main, footer, #particle-div, #particle_background {
+    position: relative;
+    z-index: 1; /* Set lower z-index for other elements */
+}
