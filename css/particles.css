@@ -1,0 +1,6 @@
+#particle-div{
+    height: calc(100% - 30px);
+    width: 100%;
+    position: relative;
+    margin-top: -30px;
+}

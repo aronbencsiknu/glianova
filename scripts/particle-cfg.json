@@ -26,17 +26,17 @@
         }
       },
       "opacity": {
-        "value": 0.4,
+        "value": 0.6,
         "random": false,
         "anim": {
           "enable": false,
           "speed": 2,
-          "opacity_min": 0.1,
+          "opacity_min": 0.2,
           "sync": false
         }
       },
       "size": {
-        "value": 10,
+        "value": 15,
         "random": true,
         "anim": {
           "enable": false,

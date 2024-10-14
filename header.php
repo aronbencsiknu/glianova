@@ -14,6 +14,20 @@
 
     <title>Home | Glia Nova</title>
 
+<!-- ARON EDITS-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="scripts/particles.js"></script>
+<link rel="stylesheet" media="all" href="css/particles.css" />
+<script>
+            $( document ).ready(function() {
+                /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+                particlesJS.load('particle-div', 'scripts/particle-cfg.json', function() {
+                    console.log('callback - particles.js config loaded');
+                });
+            });
+        </script>
+
+<!-- ARON EDITS-->
 
 <link rel="stylesheet" media="all" href="css/ajax-progress.module.css%3Fs40twd.css" />
 <link rel="stylesheet" media="all" href="css/align.module.css%3Fs40twd.css" />

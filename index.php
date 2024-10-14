@@ -4,7 +4,7 @@
 ?>
 
 
-<script src="scripts/particles.js"></script>
+
 
     <div class="region region-featured">
     
@@ -16,9 +16,12 @@
       
 
   <div class="node__content">
-    <div id="frontpage-hero" style="background-image: url(images/glianova_future.jpg);">
+    <div id="frontpage-hero" style="background-image: url(images/bg.jpg);">
+    <div id="particle-div">
+    <img src="images/lemnaMinorLogoWhite.png" alt="" style="opacity: 0.5;">
+                </div>
       
-            <div class="clearfix text-formatted field field--name-field-hero-text field--type-text-long field--label-hidden field__item"><p> <p style="color: #000000;">The Harvest of the Future</p>
+            <div class="clearfix text-formatted field field--name-field-hero-text field--type-text-long field--label-hidden field__item"><p> <p style="color: #FFFFFF;font-weight: bold;">The Harvest of the Future</p>
 </div>
       
     </div>
