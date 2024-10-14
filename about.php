@@ -28,7 +28,7 @@
 
 
 
-<p><strong>SKILLS &amp; KNOWLEDGE</strong>In large-scale algal culturing (isolate to biomass), growth conditions and media optimization (solid and liquid mediums), algal extractions for bioactive-enriched consumer products and beta-glucan testing, biodiversity conservation of rare and endangered algal species (culturing and inoculation), sustainable water management solutions regarding algal inoculations (in natural and managed water systems), algal delivery mechanisms (inoculation tools), algal optimization of functioning bio/physical/chemical properties of soils, rhizosphere, or lignocellulosic-based materials, funding-call applications, industry pitches, and investigatory scientific writing. </p>
+<p><strong>SKILLS &amp; KNOWLEDGE</strong> In large-scale algal culturing (isolate to biomass), growth conditions and media optimization (solid and liquid mediums), algal extractions for bioactive-enriched consumer products and beta-glucan testing, biodiversity conservation of rare and endangered algal species (culturing and inoculation), sustainable water management solutions regarding algal inoculations (in natural and managed water systems), algal delivery mechanisms (inoculation tools), algal optimization of functioning bio/physical/chemical properties of soils, rhizosphere, or lignocellulosic-based materials, funding-call applications, industry pitches, and investigatory scientific writing. </p>
 <p><strong>DESIRABLE PARTNERS</strong> Complementary research institutes or parties, complimentary SMEs for circular practices, conservation and biodiversity protection policy/legal experts, novel algal or other bioactive constituent prospectors.</p>
 <h4><a class="ck_button-blue" href="contact.html">Contact us</a></h4>
 <p> </p>
