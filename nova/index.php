@@ -4,7 +4,7 @@
 ?>
 
 
-
+<script src="scripts/particles.js"></script>
 
     <div class="region region-featured">
     
