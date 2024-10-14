@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glia Nova</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
     <!-- Include JavaScript files -->
     <script defer src="javascript/hamburger.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

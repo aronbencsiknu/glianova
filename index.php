@@ -3,7 +3,7 @@
 <div id="particle_background">
     <div class="particle-text">
         <h1>Glia Nova Biotech</h1>
-        <p>Committed to healthier ecosystems.</p>
+        <p>Committed to healthier ecosystems</p>
     </div>
     <div id="particle-div">
         <!-- Particle.js canvas will be initialized here -->
@@ -11,7 +11,7 @@
    
     
     </div>
-    <main>
+    <main id="index_main">
         <p class="page_intro">Glia Nova Biotech is a biotechnology company committed to healthier humans and ecosystems. The company researches, innovates and develops novel industry solutions with algae. </p>
         <p>
 
