@@ -1,7 +1,7 @@
 <footer>
     <div class="footer-container">
         <div class="footer-left">
-            <p><b>Glia Nova</b></p>
+            <img src="images/glianova_logo_white.png" alt="">
             <p>Berlini ut. 47-49</p>
             <p>C1045 Budapest Hungary</p>
             <p>Email: <a href="mailto:info@glianova.hu">info@glianova.hu</a></p>

@@ -1,4 +1,4 @@
-
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Maven+Pro:wght@400..900&display=swap');
 
 /* Global Styling */
@@ -33,7 +33,15 @@ nav {
     border-top: 2px solid #729197; /* Line on top of nav bar */
     border-bottom: 2px solid #729197; /* Line on bottom of nav bar */
 }
-
+/* Highlight the active navigation link */
+nav ul li a.active {
+    font-weight: bold;
+    /* Additional styles if needed */
+    /* For example, change color or underline */
+    /* color: #ffcc00; */
+    /* text-decoration: underline; */
+    color: #174a4a;
+}
 nav ul {
     list-style: none;
     padding: 20px 0 20px 120px;
@@ -53,7 +61,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #113939;
 }
 
 /* Hamburger Menu Styling */
@@ -73,6 +81,9 @@ nav ul li a:hover {
 
 /* Responsive Styling */
 @media (max-width: 768px) {
+    main{
+        padding: 30px 10px 30px 10px;
+    }
     /* Show hamburger icon */
     .hamburger {
         display: flex;
@@ -149,6 +160,9 @@ main {
     max-width: 700px;
     margin: auto;
 }
+main img{
+    text-align: center;
+}
 h1{
     text-align: center;
     font-size: 3rem;
@@ -164,13 +178,15 @@ h1{
 }
 /* Footer Styling */
 footer {
-    background-color: #333;
+    background-color: #113939;
     color: #fff;
     padding: 20px 0;
     width: 100%;
     bottom: 0;
 }
-
+footer img{
+    height:60px;
+}
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -260,13 +276,14 @@ form input[type="text"],
 form input[type="email"],
 form textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 15px;
     box-sizing: border-box;
+    border: 2px solid #729197
 }
 
 form input[type="submit"] {
-    background-color: #333;
+    background-color: #113939;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -274,7 +291,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #0a2424;
 }
 
 /* Responsive Footer */
@@ -331,4 +348,74 @@ form input[type="submit"]:hover {
 main, footer, #particle-div, #particle_background {
     position: relative;
     z-index: 1; /* Set lower z-index for other elements */
+}
+
+/* News Page Styling */
+#news{
+    max-width: 1200px;
+}
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between grid items */
+}
+
+.news-item {
+    position: relative;
+    width: 300px; /* Three items per row with spacing */
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    color: #fff;
+    overflow: hidden;
+    border-radius: 5px;
+    
+}
+
+.news-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Gradient overlay that fades into black */
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.7) 60%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    
+}
+
+.news-item:hover::before {
+    
+}
+
+
+.news-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.news-overlay h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+@media (max-width: 992px) {
+    .news-item {
+        width: calc(50% - 40px); /* Two items per row */
+    }
+}
+
+@media (max-width: 600px) {
+    .news-item {
+        width: calc(100% - 40px); /* One item per row */
+    }
 }
