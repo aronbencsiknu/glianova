@@ -188,6 +188,7 @@ main {
 main img {
     display: block;
     margin: 0 auto;
+    max-width: 90%;
 }
 h1{
     text-align: center;
@@ -385,7 +386,25 @@ main, footer, #particle-div, #particle_background {
     justify-content: center;
     gap: 20px; /* Space between grid items */
 }
-
+.news-grid p{
+    margin-bottom: 0;
+}
+.news-grid hr{
+    border: none;
+    height: 1px;
+    background: transparent; /* Ensures the default line isn't visible */
+    position: relative;
+}
+.news-grid hr::before{
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); /* Adjust direction if needed */
+  display: block;
+}
 .news-item {
     position: relative;
     width: 300px; /* Three items per row with spacing */
