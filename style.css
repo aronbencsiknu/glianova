@@ -125,7 +125,17 @@ nav ul li a:hover {
 }
 
 /* Responsive Styling */
-@media (max-width: 768px) {
+@media (max-width: 960px) {
+    .logo {
+        /* Logo stays on the top-left by default */
+        padding: 20px 150px 20px 35px;
+    }
+    nav ul {
+        list-style: none;
+        padding: 20px 0 20px 0px;
+    }
+}
+@media (max-width: 700px) {
     header{
         position: fixed;
         width: 100%;
