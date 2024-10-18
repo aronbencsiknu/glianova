@@ -5,7 +5,7 @@
     
 
     <p><b>Magyarországon egyedülálló biotechnológiai üzem épül a Heves vármegyei Tarnabodon. A beruházás célja a világ egyik leghatékonyabb antioxidánsának, az algákból kinyert astaxanthin előállítása, amely alapja lesz egy új és innovatív funkcionális italnak.</b></p>
-    <img src="images/article3.jpg" alt="">
+    
     <p>A több szakmai elismeréssel is díjazott Funky Forest® 100%-os préslé és smoothie termékcsalád gyártója, a Házikó Farm Kft. sikeresen pályázott 2023-ban az Élelmiszeripari Beszállító-fejlesztési Program (ÉLIP BP) keretében, hogy technológiai fejlesztéseket valósítson meg egy innovatív ötlet megvalósítása érdekében. A projekt célja egy egészséges alternatívát nyújtó funkcionális ital kifejlesztése és piaci bevezetése, amelynek hatóanyaga az algából kinyert astaxanthin.
 <p>Az astaxanthin egy rendkívül erős antioxidáns, amely többek között algák, élesztők, lazacok és rákfélék által termelt vörös pigment. Kiemelkedő biológiai tulajdonságai közé tartozik, hogy antioxidáns kapacitása jelentősen meghaladja a C-vitamin és az E-vitamin hatékonyságát. Az astaxanthin képes semlegesíteni a szabad gyököket, amelyek károsítják a sejteket és hozzájárulnak különböző betegségek kialakulásához. 
 <p>A több mint hatszáz milliós beruházás egyrészt a Házikó Farm Kft. Szécsényben lévő telephelyén, másrészt - a technológiai beszállítóként kiválasztott Glia Kft. közreműködésével - a Heves vármegyei Tarnabodon valósul meg. 

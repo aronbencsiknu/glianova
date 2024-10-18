@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <main>
-    <h1>Contact Us</h1>
+    <h1>Kapcsolat</h1>
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -40,16 +40,16 @@
     if ($showForm) {
     ?>
         <form action="contact.php" method="post">
-            <label for="name">Name:</label>
+            <label for="name">Név:</label>
             <input type="text" id="name" name="name" required><br><br>
 
-            <label for="email">Email:</label>
+            <label for="email">Email cím:</label>
             <input type="email" id="email" name="email" required><br><br>
 
-            <label for="message">Message:</label><br>
+            <label for="message">Üzenet:</label>
             <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Küldés">
         </form>
     <?php
     }
