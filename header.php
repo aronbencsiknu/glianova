@@ -55,15 +55,14 @@
                 </div>
                 <p>NBI index: <span id="nbi-index">Betöltés...</span></p>
                 <script>
-                    fetch('https://query1.finance.yahoo.com/v8/finance/chart/%5ENBI')
-                    .then(response => response.json())
+                    fetch('nbi_value.txt')
+                    .then(response => response.text())
                     .then(data => {
-                        const nbiValue = data.chart.result[0].meta.regularMarketPrice;
-                        document.getElementById('nbi-index').innerHTML = 'NBI Index: ' + nbiValue;
+                        document.getElementById('nbi-index').innerHTML = data.trim();
                     })
-                    .catch(error => console.log('Error fetching NBI index: ', error));
-
+                    .catch(error => console.log('Error fetching NBI index from file: ', error));
                 </script>
+
                 
                 <!--?php
                     // Get the current page name

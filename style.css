@@ -242,6 +242,10 @@ nav ul li a:hover {
         /* Logo stays on the top-left by default */
         padding: 10px 0 10px 20px;
     }
+    form{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 /* Transform hamburger to 'X' when active */
@@ -405,6 +409,7 @@ form input[type="submit"] {
     cursor: pointer;
     display: block;
     margin: auto;
+    font-size: 15px;
 }
 
 form input[type="submit"]:hover {
@@ -476,6 +481,7 @@ main, footer, #particle-div, #particle_background {
     justify-content: center;
     gap: 20px; /* Space between grid items */
 }
+
 .news-grid p{
     margin-bottom: 0;
     font-size: 14px;
@@ -508,9 +514,14 @@ main, footer, #particle-div, #particle_background {
     color: #fff;
     overflow: hidden;
     border-radius: 5px;
-    
+    transition: scale 0.15s, box-shadow 0.12s;
 }
-
+.news-item:hover{
+    scale: 1.015;
+    box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 5px 10px -1px rgba(0,0,0,0.5);
+}
 .news-item::before {
     content: '';
     position: absolute;
